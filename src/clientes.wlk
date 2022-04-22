@@ -1,11 +1,11 @@
 import remiseras.*
 
 object ludmila{
-	var precio= 18
+	const precio= 18
 	
 	method viaja(km){
-		precio= precio * km
-		return precio
+		return precio * km
+		
 		}
 	
 	method precio(){
@@ -17,7 +17,7 @@ object ludmila{
 object ana_Maria{
 	
 	var estaEstable= true
-	var precio= 25
+	var precio= 30
 
 
 	method estaEstable(cambiar){
@@ -27,12 +27,12 @@ object ana_Maria{
     method viaja(km){
 		if (estaEstable){
 			precio= 30
-			precio= precio * km
+
 		}
-		else{
-			precio= precio * km
-		}
-		return precio
+		else{precio= 25}
+	
+		
+		return precio * km
 	} 
 	
 	
@@ -50,10 +50,8 @@ object teresa{
 	}
 	
 	method viaja(km){
-		
-		precio= precio * km
-		return precio
-		
+		return precio * km
+	
 		}
 	
 	
