@@ -28,11 +28,11 @@ object oficina {
 	
 	method remiseraElegidaParaViaje(cliente,km){
 		var remisera
-		if (primeraRemisera.precioViaje(cliente, km) - 30 < segundaRemisera.precioViaje(cliente,km) ){
+		if (segundaRemisera.precioViaje(cliente, km) + 30 < primeraRemisera.precioViaje(cliente,km) ){
 			
-			remisera= primeraRemisera
+			remisera= segundaRemisera
 		} 
-		else {remisera= segundaRemisera}
+		else {remisera= primeraRemisera}
 		
 		return remisera.precioViaje(cliente,km)
 	}
