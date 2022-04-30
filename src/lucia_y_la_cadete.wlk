@@ -2,7 +2,9 @@ import remiseras.*
 import clientes.*
 
 object lucia {
-	
+/*
+ * Revisar billetera
+ */
 	var reemplaza_A
 	var billetera= 0
 	
@@ -25,7 +27,9 @@ object lucia {
 }
 
 object melina{
-	
+/*
+ * Revisar precio
+ */
 	var paraQuienTrabaja
 	var precio
 	

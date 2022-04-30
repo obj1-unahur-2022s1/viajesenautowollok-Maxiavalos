@@ -2,6 +2,9 @@ import clientes.*
 import remiseras.*
 import lucia_y_la_cadete.*
 import cooperativa.*
+/*
+ * TEST OK
+ */
 
 test "Precio del viaje con Roxana" {
 	
