@@ -1,15 +1,17 @@
 import clientes.*
-
+/* En todos los objetos el atributo billetera es innecesaro
+ * Mira el cambio que realice en roxana y pensá como deberían ser los otros objetos
+ */
 object roxana {
-	var billetera=0
 	
-	method precioViaje(cliente,km){
-		billetera= cliente.viaja(km)
-		return billetera
-	}
+	method precioViaje(cliente,km) = cliente.viaja(km)
+
 }
 
 object gabriela{
+/*
+ * Revisar billetera
+ */
 	var billetera= 0
 	
 	method precioViaje(cliente,km){
@@ -19,6 +21,9 @@ object gabriela{
 }
 
 object mariela{
+/*
+ * Revisar billetera
+ */	
 	var billetera= 0
 	
 	method precioViaje (cliente, km){
@@ -36,6 +41,9 @@ object mariela{
 }
 
 object juana{
+/*
+ * Revisar billetera
+ */
 	var billetera= 0
 	
 	method precioViaje(cliente,km){

@@ -21,12 +21,14 @@ object oficina {
 	}
 	
 	method intercambiarRemiseras(){
-		var temp= primeraRemisera
-		primeraRemisera= segundaRemisera
-		segundaRemisera= temp
+		/* 
+		 * Reutiliza el codigo que ya tenes programado
+		 */
+		self.asignarRemisera(segundaRemisera,primeraRemisera)
 	}
 	
 	method remiseraElegidaParaViaje(cliente,km){
+	/* Hacerlo sin variable local remisera */
 		var remisera
 		if (segundaRemisera.precioViaje(cliente, km) + 30 < primeraRemisera.precioViaje(cliente,km) ){
 			
