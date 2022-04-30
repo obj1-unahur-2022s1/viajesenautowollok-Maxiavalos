@@ -1,15 +1,15 @@
 import clientes.*
 
 object roxana {
-	var billetera=0
+	/* Para este ejercicio no era necesario que roxana supiera el valor de ultimo viaje que quedaba guardado en billetera */
 	
-	method precioViaje(cliente,km){
-		billetera= cliente.viaja(km)
-		return billetera
-	}
+	method precioViaje(cliente,km) = cliente.viaja(km)
+		
+	
 }
 
 object gabriela{
+	/* Idem que Roxana no hace falta recordar nada, modificalo vos */
 	var billetera= 0
 	
 	method precioViaje(cliente,km){
@@ -19,6 +19,7 @@ object gabriela{
 }
 
 object mariela{
+/* Idem no hace falta recordar billetera, revisalo. */
 	var billetera= 0
 	
 	method precioViaje (cliente, km){
@@ -36,6 +37,7 @@ object mariela{
 }
 
 object juana{
+	/* Idem no hace falta recordar billetera, revisalo. */
 	var billetera= 0
 	
 	method precioViaje(cliente,km){

@@ -2,7 +2,7 @@ import remiseras.*
 import clientes.*
 
 object lucia {
-	
+	/*Bien el reemplaza_A, mismo problema con la billetera */
 	var reemplaza_A
 	var billetera= 0
 	
@@ -25,7 +25,7 @@ object lucia {
 }
 
 object melina{
-	
+	/* No hacer falta recordar el atributo precion */
 	var paraQuienTrabaja
 	var precio
 	
