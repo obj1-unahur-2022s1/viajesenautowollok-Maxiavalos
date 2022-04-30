@@ -3,6 +3,7 @@ import remiseras.*
 import lucia_y_la_cadete.*
 import cooperativa.*
 
+/*Los test corren OK  */
 test "Precio del viaje con Roxana" {
 	
 	assert.equals(180,roxana.precioViaje(ludmila,10))

@@ -21,12 +21,18 @@ object oficina {
 	}
 	
 	method intercambiarRemiseras(){
+		/* podias hacer los siguiente */ 
+		 self.asignarRemisera(segundaRemisera,primeraRemisera)
+		/*  
 		var temp= primeraRemisera
 		primeraRemisera= segundaRemisera
 		segundaRemisera= temp
+		* 
+		*/
 	}
 	
 	method remiseraElegidaParaViaje(cliente,km){
+		/*Intente resolverlos sin la variable auximar remisera */
 		var remisera
 		if (segundaRemisera.precioViaje(cliente, km) + 30 < primeraRemisera.precioViaje(cliente,km) ){
 			
